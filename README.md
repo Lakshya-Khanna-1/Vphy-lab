@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ VphyLAB — Virtual Physics Laboratory
+# VphyLAB — Virtual Physics Laboratory
 
 ### *Interactive Web-Based Physics Simulations & Research Portal*
 
@@ -21,11 +21,11 @@
 
 </div>
 
-## 🌌 About the Project
+## About the Project
 
 **VphyLAB** is an interactive, web-based laboratory designed for undergraduate physics education and research. Built with a sleek dark-mode research portal aesthetic featuring deep obsidian tones (`#020617`), glowing teal accents (`#2dd4bf`), and tactile virtual instrumentation, the platform delivers zero-latency simulations with real-time data visualization and instant cloud telemetry export.
 
-### 🌟 Highlights
+### Highlights
 - **5 Interactive Experiments**: Classical mechanics, wave interference, physical optics, spectrometry, and electrical circuits.
 - **60 FPS Simulation Loop**: Direct DOM writes via native `requestAnimationFrame` bypass React re-rendering overhead for smooth motion.
 - **Real-Time Data Viz**: Dynamic Recharts plotting experimental observations against theoretical curves.
@@ -33,7 +33,7 @@
 
 ---
 
-## 🧪 Experiments
+## Experiments
 
 | Module | Experiment | Domain | Key Formula | Core Tools |
 | :--- | :--- | :--- | :--- | :--- |
@@ -84,7 +84,7 @@
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone & Install
 ```bash
