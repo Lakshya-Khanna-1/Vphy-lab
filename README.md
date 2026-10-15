@@ -72,7 +72,7 @@
 
 ---
 
-## 🛠️ Tech Stack & Simulation Architecture
+## Tech Stack & Simulation Architecture
 
 - **Frontend & Routing**: [Next.js 16 (App Router)](https://nextjs.org/) + [React 19](https://react.dev/) + [TypeScript](https://www.typescriptlang.org/)
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) with custom dark theme tokens and glassmorphism
@@ -107,6 +107,6 @@ npm run start
 
 ---
 
-## 📄 License
+## License
 
 Licensed under the **Apache License, Version 2.0**. See the [`LICENSE`](LICENSE) file for details.
