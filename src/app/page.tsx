@@ -12,6 +12,7 @@ import {
   type ExperimentLog,
 } from '@/lib/lib/firebase/experiments';
 import { PortalLayout } from '@/components/layout/PortalLayout';
+import { CreditsSection } from '@/components/dashboard/CreditsSection';
 
 const experiments = [
   {
@@ -288,6 +289,9 @@ export default function Home() {
             </table>
           </div>
         </section>
+
+        {/* ── Academic & Development Credits ── */}
+        <CreditsSection />
       </div>
 
       {/* ── Floating Action Button ── */}

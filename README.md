@@ -107,6 +107,22 @@ npm run start
 
 ---
 
+## Project Credits & Faculty Mentorship
+
+### Faculty Mentor & Project Guardian
+> **Dr. Daljeet Kaur**  
+> *Department of Applied Sciences* — Guru Tegh Bahadur Institute of Technology (GTBIT)  
+> Guiding research advisor providing academic leadership, curricular alignment, and experimental validation for virtual physical laboratory instrumentation.
+
+### Core Simulation Developers — Batch 2025–2029 (Equal Peer Contributors)
+| Developer | Branch / Program | Academic Batch | Role | Developed Experiments |
+| :--- | :--- | :--- | :--- | :--- |
+| **Tushar Singh Ahluwalia** | Computer Science & Engineering (Data Science) — **CSE-DS** | 2025–2029 | Core Simulation Developer | **MOD-03**: Newton's Rings<br>**MOD-04**: 2D Spectrometer |
+| **Pranav Khera** | Information Technology — **IT** | 2025–2029 | Core Simulation Developer | **MOD-01**: Bar Pendulum<br>**MOD-02**: Optical Fibre (Numerical Aperture) |
+| **Lakshya Khanna** | Information Technology — **IT** | 2025–2029 | Core Simulation Developer | **MOD-05**: RC Circuit Simulator |
+
+---
+
 ## License
 
 Licensed under the **Apache License, Version 2.0**. See the [`LICENSE`](LICENSE) file for details.
