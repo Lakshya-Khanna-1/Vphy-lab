@@ -127,10 +127,6 @@ export function PortalLayout({
         </div>
         
         <div className="flex items-center gap-6">
-          <div className="hidden xl:flex items-center gap-2 px-3 py-1 rounded-full bg-teal-500/10 border border-teal-500/20 text-teal-400 font-[var(--font-space-grotesk)] text-[10px] tracking-[0.2em]">
-            <span className="w-1.5 h-1.5 rounded-full bg-teal-400 animate-pulse" />
-            <span>SYS.VER // 4.0.1 // ONLINE</span>
-          </div>
           <div className="flex items-center gap-3">
             <button className="text-slate-400 hover:text-teal-400 hover:bg-white/5 transition-all duration-200 p-2 rounded-lg relative">
               <Bell className="w-5 h-5" />

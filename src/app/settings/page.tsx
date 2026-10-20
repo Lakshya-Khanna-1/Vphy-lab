@@ -212,7 +212,7 @@ export default function SettingsPage() {
                 <ShieldCheck className="w-4 h-4 text-teal-400" />
                 <span>Verified GTBIT Core Research Facility Terminal</span>
               </span>
-              <span>SYS.VER // 4.0.1</span>
+              <span>v4.0.1</span>
             </div>
           </section>
         </div>
