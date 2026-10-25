@@ -1,0 +1,6 @@
+{
+  "entry": ["src/app/**/{page,layout,error,loading,not-found}.{ts,tsx}", "check-*.mjs"],
+  "project": ["src/**/*.{ts,tsx}", "check-*.mjs"],
+  "ignore": [".agents/**", ".codex/**", "anti-slop/**"],
+  "ignoreDependencies": ["@tailwindcss/postcss", "@types/node", "@types/react", "@types/react-dom", "eslint-config-next"]
+}

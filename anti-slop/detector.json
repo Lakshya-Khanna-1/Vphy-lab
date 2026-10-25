@@ -1,0 +1,1924 @@
+[
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\experiments\\library.css",
+    "line": 9,
+    "snippet": "font-size: clamp(48px, 6vw, 80px) has fluid endpoints 48px and 80px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "48px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\experiments\\library.css",
+    "line": 15,
+    "snippet": "font-size: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\experiments\\library.css",
+    "line": 36,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\experiments\\library.css",
+    "line": 70,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\experiments\\library.css",
+    "line": 153,
+    "snippet": "font-size: clamp(30px, 3.5vw, 48px) has fluid endpoints 30px and 48px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "30px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\experiments\\library.css",
+    "line": 163,
+    "snippet": "font-size: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\experiments\\library.css",
+    "line": 187,
+    "snippet": "font-size: 30px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "30px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\experiments\\library.css",
+    "line": 199,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\experiments\\library.css",
+    "line": 232,
+    "snippet": "font-size: 52px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "52px",
+    "importedBy": [
+      "page.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 71,
+    "snippet": "font-size: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 208,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 299,
+    "snippet": "font-size: clamp(68px, 7.2vw, 96px) has fluid endpoints 68px and 96px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "68px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 321,
+    "snippet": "font-size: 17px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "17px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 370,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 378,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 393,
+    "snippet": "font-size: 32px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "32px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 411,
+    "snippet": "font-size: clamp(28px, 3vw, 42px) has fluid endpoints 28px and 42px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "28px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 420,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 451,
+    "snippet": "font-size: clamp(20px, 2vw, 28px) has fluid endpoints 20px and 28px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "20px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 456,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 495,
+    "snippet": "font-size: 16px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "16px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 504,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 525,
+    "snippet": "font-size: 20px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "20px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 529,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 549,
+    "snippet": "font-size: 21px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "21px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 573,
+    "snippet": "font-size: clamp(42px, 5vw, 68px) has fluid endpoints 42px and 68px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "42px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 583,
+    "snippet": "font-size: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 606,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 619,
+    "snippet": "font-size: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 628,
+    "snippet": "font-size: 32px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "32px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 676,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 721,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 752,
+    "snippet": "font-size: 28px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "28px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 766,
+    "snippet": "font-size: 25px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "25px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 816,
+    "snippet": "font-size: 24px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "24px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 833,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 842,
+    "snippet": "font-size: 17px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "17px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 847,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 869,
+    "snippet": "font-size: 76px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "76px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 911,
+    "snippet": "font-size: 29px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "29px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 938,
+    "snippet": "font-size: clamp(64px, 14vw, 88px) has fluid endpoints 64px and 88px off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "64px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 946,
+    "snippet": "font-size: 16px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "16px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 949,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 959,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 971,
+    "snippet": "font-size: 29px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "29px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 988,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 992,
+    "snippet": "font-size: 26px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "26px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 1044,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 1047,
+    "snippet": "font-size: 27px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "27px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\globals.css",
+    "line": 1063,
+    "snippet": "font-size: 20px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "20px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\optics\\fiber-aperture\\page.tsx",
+    "line": 165,
+    "snippet": "Undocumented color #1e293b is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#1e293b"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\optics\\fiber-aperture\\page.tsx",
+    "line": 185,
+    "snippet": "text-[…] class: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\optics\\fiber-aperture\\page.tsx",
+    "line": 190,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\optics\\fiber-aperture\\page.tsx",
+    "line": 205,
+    "snippet": "text-[…] class: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\optics\\fiber-aperture\\page.tsx",
+    "line": 222,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\optics\\fiber-aperture\\page.tsx",
+    "line": 231,
+    "snippet": "text-[…] class: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\optics\\fiber-aperture\\page.tsx",
+    "line": 237,
+    "snippet": "text-[…] class: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\optics\\fiber-aperture\\page.tsx",
+    "line": 257,
+    "snippet": "text-[…] class: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\optics\\fiber-aperture\\page.tsx",
+    "line": 281,
+    "snippet": "text-[…] class: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 69,
+    "snippet": "Undocumented color #60a5fa is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#60a5fa"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 372,
+    "snippet": "Undocumented color #64748b is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#64748b"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 377,
+    "snippet": "Undocumented color #64748b is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#64748b"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 378,
+    "snippet": "Undocumented color #334155 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#334155"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 393,
+    "snippet": "Undocumented color #64748b is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#64748b"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 398,
+    "snippet": "Undocumented color #64748b is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#64748b"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 399,
+    "snippet": "Undocumented color #334155 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#334155"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 404,
+    "snippet": "Undocumented color #3b82f6 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#3b82f6"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 407,
+    "snippet": "Undocumented color #1e293b is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#1e293b"
+  },
+  {
+    "antipattern": "design-system-radius",
+    "name": "Radius outside DESIGN.md",
+    "description": "A border-radius value is outside the DESIGN.md rounded scale. Use a documented radius token or update the design system if the new shape is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 409,
+    "snippet": "borderRadius: 12px is outside the DESIGN.md rounded scale",
+    "advisory": true,
+    "ignoreValue": "12px"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 410,
+    "snippet": "Undocumented color #f8fafc is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#f8fafc"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 412,
+    "snippet": "Undocumented color #60a5fa is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#60a5fa"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 423,
+    "snippet": "Undocumented color #3b82f6 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#3b82f6"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 450,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 460,
+    "snippet": "text-[…] class: 16px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "16px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 488,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 498,
+    "snippet": "text-[…] class: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\oscillation\\bar-pendulum\\page.tsx",
+    "line": 538,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\v2.css",
+    "line": 24,
+    "snippet": "font-size: 28px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "28px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\v2.css",
+    "line": 31,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\v2.css",
+    "line": 87,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\v2.css",
+    "line": 103,
+    "snippet": "font-size: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\v2.css",
+    "line": 119,
+    "snippet": "font-size: 26px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "26px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\v2.css",
+    "line": 124,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\v2.css",
+    "line": 167,
+    "snippet": "font-size: 18px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "18px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\v2.css",
+    "line": 198,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\app\\v2.css",
+    "line": 205,
+    "snippet": "font-size: 13px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "13px",
+    "importedBy": [
+      "layout.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\MicroscopeWorkspace.tsx",
+    "line": 101,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 285,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 302,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 323,
+    "snippet": "text-[…] class: 120px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "120px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 335,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 342,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 348,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 353,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 358,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 365,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 385,
+    "snippet": "text-[…] class: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+    "line": 394,
+    "snippet": "text-[…] class: 11px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "11px",
+    "importedBy": [
+      "NewtonsRingsApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\newtons-rings\\TheoryCard.tsx",
+    "line": 53,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\spectrometer\\ObservationTable.tsx",
+    "line": 185,
+    "snippet": "Undocumented color #ccc is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#ccc",
+    "importedBy": [
+      "SpectrometerApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\spectrometer\\ObservationTable.tsx",
+    "line": 272,
+    "snippet": "Undocumented color #ccc is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#ccc",
+    "importedBy": [
+      "SpectrometerApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\spectrometer\\ProtractorScale.tsx",
+    "line": 26,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px",
+    "importedBy": [
+      "SpectrometerApp.tsx"
+    ]
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\spectrometer\\SpectrometerApp.tsx",
+    "line": 107,
+    "snippet": "Undocumented color #1e293b is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#1e293b"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\optics\\spectrometer\\SpectrometerApp.tsx",
+    "line": 107,
+    "snippet": "Undocumented color #0b0f19 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#0b0f19"
+  },
+  {
+    "antipattern": "gray-on-color",
+    "name": "Gray text on colored background",
+    "description": "Gray text looks washed out on colored backgrounds. Use a darker shade of the background color instead, or white/near-white for contrast.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumCalculations.tsx",
+    "line": 151,
+    "snippet": "text-slate-500 on bg-emerald-600"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumCalculations.tsx",
+    "line": 70,
+    "snippet": "text-[…] class: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumCalculations.tsx",
+    "line": 85,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumCalculations.tsx",
+    "line": 93,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumCalculations.tsx",
+    "line": 108,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumCalculations.tsx",
+    "line": 121,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumCalculations.tsx",
+    "line": 134,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumCalculations.tsx",
+    "line": 159,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumCalculations.tsx",
+    "line": 189,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "gray-on-color",
+    "name": "Gray text on colored background",
+    "description": "Gray text looks washed out on colored backgrounds. Use a darker shade of the background color instead, or white/near-white for contrast.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 273,
+    "snippet": "text-slate-500 on bg-blue-600"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 117,
+    "snippet": "text-[…] class: 15px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "15px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 165,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 168,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 171,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 174,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 178,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 181,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 184,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 187,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 207,
+    "snippet": "text-[…] class: 8px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "8px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 231,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 257,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 293,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\CircuitSwitches.tsx",
+    "line": 127,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\Graph.tsx",
+    "line": 71,
+    "snippet": "Undocumented color #64748b is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#64748b"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\Graph.tsx",
+    "line": 74,
+    "snippet": "Undocumented color #334155 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#334155"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\Graph.tsx",
+    "line": 83,
+    "snippet": "Undocumented color #64748b is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#64748b"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\Graph.tsx",
+    "line": 86,
+    "snippet": "Undocumented color #334155 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#334155"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\Graph.tsx",
+    "line": 92,
+    "snippet": "Undocumented color #1e293b is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#1e293b"
+  },
+  {
+    "antipattern": "design-system-radius",
+    "name": "Radius outside DESIGN.md",
+    "description": "A border-radius value is outside the DESIGN.md rounded scale. Use a documented radius token or update the design system if the new shape is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\Graph.tsx",
+    "line": 93,
+    "snippet": "borderRadius: 8px is outside the DESIGN.md rounded scale",
+    "advisory": true,
+    "ignoreValue": "8px"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\Graph.tsx",
+    "line": 94,
+    "snippet": "Undocumented color #f8fafc is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#f8fafc"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\Graph.tsx",
+    "line": 96,
+    "snippet": "Undocumented color #60a5fa is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#60a5fa"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\Graph.tsx",
+    "line": 104,
+    "snippet": "Undocumented color #3b82f6 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#3b82f6"
+  },
+  {
+    "antipattern": "design-system-font-size",
+    "name": "Font size outside DESIGN.md",
+    "description": "A literal font-size is off the type ramp documented in DESIGN.md typography. Use a documented size step or update the design system if the new step is intentional.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\features\\circuits\\components\\Stopwatch.tsx",
+    "line": 66,
+    "snippet": "text-[…] class: 10px is off the DESIGN.md type ramp",
+    "advisory": true,
+    "ignoreValue": "10px"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\lib\\physics\\spectrometer.ts",
+    "line": 64,
+    "snippet": "Undocumented color #ff4444 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#ff4444"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\lib\\physics\\spectrometer.ts",
+    "line": 72,
+    "snippet": "Undocumented color #44ff44 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#44ff44"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\lib\\physics\\spectrometer.ts",
+    "line": 80,
+    "snippet": "Undocumented color #4444ff is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#4444ff"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\lib\\physics\\spectrometer.ts",
+    "line": 88,
+    "snippet": "Undocumented color #8844ff is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#8844ff"
+  }
+]

@@ -1,0 +1,215 @@
+{
+  "root": "C:\\Users\\admin\\Desktop\\vphylab v2",
+  "out": "anti-slop/probe",
+  "generatedAt": "2026-10-21T12:55:15.877Z",
+  "stack": {
+    "packageManager": "npm",
+    "monorepo": false,
+    "frameworks": [
+      "next"
+    ],
+    "react": "19.2.4",
+    "typescript": "^5",
+    "linters": [
+      "eslint"
+    ],
+    "formatters": [],
+    "unitTests": [],
+    "e2e": [],
+    "e2eGlobs": [
+      "**/e2e/**",
+      "**/*.e2e.*"
+    ],
+    "gitHooks": [],
+    "agentFiles": [
+      ".agents/skills/vercel-composition-patterns/AGENTS.md",
+      ".agents/skills/vercel-optimize/AGENTS.md",
+      ".agents/skills/vercel-optimize/CONTRIBUTING.md",
+      ".agents/skills/vercel-react-best-practices/AGENTS.md",
+      ".agents/skills/vercel-react-native-skills/AGENTS.md",
+      ".agents/skills/vercel-react-view-transitions/AGENTS.md",
+      "AGENTS.md",
+      "CLAUDE.md"
+    ],
+    "agentHooks": [],
+    "ci": {
+      "files": [],
+      "scheduled": false,
+      "checks": []
+    },
+    "api": {
+      "specs": [],
+      "tooling": []
+    },
+    "boundaryTooling": [],
+    "topLevelSourceDirs": {
+      "src/components": 22,
+      "src/app": 11,
+      "src/features": 11,
+      "src/lib": 10,
+      "src/layout": 2
+    }
+  },
+  "scripts": {
+    "checks": {
+      "lint": []
+    },
+    "notInCi": [
+      "lint"
+    ]
+  },
+  "repo": {
+    "firstCommit": null,
+    "commitsLast90Days": 0,
+    "authorsLast90Days": 0,
+    "prMergesLast90Days": 0,
+    "nonMergeCommitsLast90Days": 0,
+    "noCodeCommitsLast90Days": 0,
+    "codeFiles": 150,
+    "sourceFiles": 150,
+    "testFiles": 0,
+    "e2eFiles": 0,
+    "sourceLines": 24052
+  },
+  "signals": {
+    "fetchCalls": 6,
+    "axiosCalls": 0,
+    "useEffect": 14,
+    "viMock": 0,
+    "jestMock": 0
+  },
+  "suppressions": {
+    "lintDisable": 0,
+    "tsIgnore": 0,
+    "tsExpectError": 0,
+    "asAny": 0
+  },
+  "mutation": {
+    "runners": [],
+    "strykerRunnerAvailable": false,
+    "testFiles": 0
+  },
+  "tsc": {
+    "projects": [
+      "tsconfig.json"
+    ],
+    "enabled": {
+      "strict": false,
+      "noUncheckedIndexedAccess": false,
+      "exactOptionalPropertyTypes": false
+    },
+    "baselineErrors": 0,
+    "flags": {
+      "strict": {
+        "newErrors": 0,
+        "byDir": {},
+        "sample": []
+      }
+    }
+  },
+  "lint": {
+    "skipped": "npm install failed: "
+  },
+  "knip": {
+    "skipped": "knip failed: "
+  },
+  "jscpd": {
+    "skipped": "jscpd failed: "
+  },
+  "doctor": {
+    "skipped": "react-doctor failed: "
+  },
+  "scars": {
+    "fixCommits": [],
+    "ruleLines": [
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:17: Composition patterns for building flexible, maintainable React components. Avoid boolean prop proliferation by using compound components, lifting state, and composing internals. These patterns make codebases easier for b",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:24: - 1.1 [Avoid Boolean Prop Proliferation](#11-avoid-boolean-prop-proliferation)",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:42: Fundamental patterns for structuring components to avoid prop",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:45: ### 1.1 Avoid Boolean Prop Proliferation",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:49: Don't add boolean props like `isThread`, `isEditing`, `isDMThread` to customize",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:269: UI components consume the context interface—they don't know if state comes from",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:557: need shared state don't have to be inside the `Composer.Frame`. They just need",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:694: **Key insight:** Components that need shared state don't have to be visually",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:711: Instead of one component with many boolean props, create explicit variant",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:812: Use `children` for composition instead of `renderX` props. Children are more",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:814: readable, compose naturally, and don't require understanding callback",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:900: React 19+ only. Don't use `forwardRef`; use `use()` instead of `useContext()`.",
+      "[code] .agents/skills/vercel-composition-patterns/AGENTS.md:932: **Correct: use instead of useContext**",
+      "[code] .agents/skills/vercel-optimize/AGENTS.md:7: Do not use it for projects that are not deployed on Vercel, greenfield projects with no traffic, or general code review.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:31: - 2.1 [Avoid Barrel File Imports](#21-avoid-barrel-file-imports)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:39: - 3.2 [Avoid Duplicate Serialization in RSC Props](#32-avoid-duplicate-serialization-in-rsc-props)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:40: - 3.3 [Avoid Shared Module State for Request Data](#33-avoid-shared-module-state-for-request-data)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:56: - 5.3 [Do not wrap a simple expression with a primitive result type in useMemo](#53-do-not-wrap-a-simple-expression-with-a-primitive-result-type-in-usememo)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:57: - 5.4 [Don't Define Components Inside Components](#54-dont-define-components-inside-components)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:70: - 6.1 [Animate SVG Wrapper Instead of SVG Element](#61-animate-svg-wrapper-instead-of-svg-element)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:82: - 7.1 [Avoid Layout Thrashing](#71-avoid-layout-thrashing)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:93: - 7.12 [Use Loop for Min/Max Instead of Sort](#712-use-loop-for-minmax-instead-of-sort)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:95: - 7.14 [Use toSorted() Instead of sort() for Immutability](#714-use-tosorted-instead-of-sort-for-immutability)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:97: - 8.1 [Do Not Put Effect Events in Dependency Arrays](#81-do-not-put-effect-events-in-dependency-arrays)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:114: When a branch uses `await` for a flag or remote value and also requires a **cheap synchronous** condition (local props, request metadata, already-loaded state), evaluate the cheap condition **first**. Otherwise you pay f",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:147: Move `await` operations into the branches where they're actually used to avoid blocking code paths that don't need them.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:272: In API routes and Server Actions, start independent operations immediately, even if you don't await them yet.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:330: Instead of awaiting data in async components before returning JSX, use Suspense boundaries to show the wrapper UI faster while data loads.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:420: - When you want to avoid layout shift (loading → content jump)",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:432: ### 2.1 Avoid Barrel File Imports",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:436: Import directly from source files instead of barrel files to avoid loading thousands of unused modules. **Barrel files** are entry points that re-export multiple modules (e.g., `index.js` that does `export * from './modu",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:471: > **TypeScript warning:** Some libraries (notably `lucide-react`) don't ship `.d.ts` files for their deep import paths. Importing from `lucide-react/dist/esm/icons/check` resolves to an implicit `any` type, causing error",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:510: Analytics, logging, and error tracking don't block user interaction. Load them after hydration.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:699: Server Actions (functions with `\"use server\"`) are exposed as public endpoints, just like API routes. Always verify authentication and authorization **inside** each Server Action—do not rely solely on middleware, layout ",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:785: ### 3.2 Avoid Duplicate Serialization in RSC Props",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:846: ### 3.3 Avoid Shared Module State for Request Data",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:850: For React Server Components and client components rendered during SSR, avoid using mutable module-level variables to share request-scoped data. Server renders can run concurrently in the same process. If one render write",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:890: - Process-wide singletons that do not store request- or user-specific mutable data",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1061: - Reading configuration files that don't change at runtime",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1246: **Avoid inline objects as arguments:**",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1274: In Next.js, the `fetch` API is automatically extended with request memoization. Requests with the same URL and options are automatically deduplicated within a single request, so you don't need `React.cache()` for `fetch`",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1484: **Don't use passive when:** implementing custom swipe gestures, custom zoom controls, or any listener that needs `preventDefault()`.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1617: If a value can be computed from current props/state, do not store it in state or update it in an effect. Derive it during render to avoid extra renders and state drift. Do not set state in effects solely in response to p",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1653: Don't subscribe to dynamic state (searchParams, localStorage) if you only read it inside callbacks.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1684: ### 5.3 Do not wrap a simple expression with a primitive result type in useMemo",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1688: When an expression is simple (few logical or arithmetical operators) and has a primitive result type (boolean, number, string), do not wrap it in `useMemo`.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1716: ### 5.4 Don't Define Components Inside Components",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1800: When memoized component has a default value for some non-primitive optional parameter, such as an array, function, or object, calling the component without that parameter results in broken memoization. This is because ne",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1872: Specify primitive dependencies instead of objects to minimize effect re-runs.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1913: If a side effect is triggered by a specific user action (submit, click, drag), run it in that event handler. Do not model the action as state + effect; it makes effects re-run on unrelated changes and can duplicate the a",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:1954: When a hook contains multiple independent tasks with different dependencies, split them into separate hooks. A combined hook reruns all tasks when any dependency changes, even if some tasks don't use the changed value.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2014: Subscribe to derived boolean state instead of continuous values to reduce re-render frequency.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2039: When updating state based on the current state value, use the functional update form of setState instead of directly referencing the state variable. This prevents stale closures, eliminates unnecessary dependencies, and ",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2085: 1. **Stable callback references** - Callbacks don't need to be recreated when state changes",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2264: When a value changes frequently and you don't want a re-render on every update (e.g., mouse trackers, intervals, transient flags), store it in `useRef` instead of `useState`. Keep component state for UI; use refs for tem",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2337: ### 6.1 Animate SVG Wrapper Instead of SVG Element",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2341: Many browsers don't have hardware acceleration for CSS3 animations on SVG elements. Wrap SVG in a `<div>` and animate the wrapper instead.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2418: Extract static JSX outside components to avoid re-creation.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2484: When rendering content that depends on client-side storage (localStorage, cookies), avoid both SSR breakage and post-hydration flickering by injecting a synchronous script that updates the DOM before React hydrates.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2562: In SSR frameworks (e.g., Next.js), some values are intentionally different on server vs client (random IDs, dates, locale/timezone formatting). For these *expected* mismatches, wrap the dynamic text in an element with `s",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2649: **Note:** In Next.js, prefer the `next/script` component with `strategy` prop instead of raw script tags:",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2657: Use explicit ternary operators (`? :`) instead of `&&` for conditional rendering when the condition can be `0`, `NaN`, or other falsy values that render.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2784: Use `useTransition` instead of manual `useState` for loading states. This provides built-in `isPending` state and automatically manages transitions.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2862: ### 7.1 Avoid Layout Thrashing",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:2866: Avoid interleaving style writes with layout reads. When you read a layout property (like `offsetWidth`, `getBoundingClientRect()`, or `getComputedStyle()`) between style changes, the browser is forced to trigger a synchr",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:3010: **Impact: MEDIUM (avoid redundant computation)**",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:3382: Don't create RegExp inside render. Hoist to module scope or memoize with `useMemo()`.",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:3476: ### 7.12 Use Loop for Min/Max Instead of Sort",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:3478: **Impact: LOW (O(n) instead of O(n log n))**",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:3574: ### 7.14 Use toSorted() Instead of sort() for Immutability",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:3639: ### 8.1 Do Not Put Effect Events in Dependency Arrays",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:3643: Effect Event functions do not have a stable identity. Their identity intentionally changes on every render. Do not include the function returned by `useEffectEvent` in a `useEffect` dependency array. Keep the actual reac",
+      "[code] .agents/skills/vercel-react-best-practices/AGENTS.md:3695: Do not put app-wide initialization that must run once per app load inside `useEffect([])` of a component. Components can remount and effects will re-run. Use a module-level guard or top-level init in the entry module ins",
+      "[code] .agents/skills/vercel-react-native-skills/AGENTS.md:24: - 1.1 [Never Use && with Potentially Falsy Values](#11-never-use--with-potentially-falsy-values)",
+      "[code] .agents/skills/vercel-react-native-skills/AGENTS.md:27: - 2.1 [Avoid Inline Objects in renderItem](#21-avoid-inline-objects-in-renderitem)",
+      "[code] .agents/skills/vercel-react-native-skills/AGENTS.md:36: - 3.1 [Animate Transform and Opacity Instead of Layout Properties](#31-animate-transform-and-opacity-instead-of-layout-properties)",
+      "[code] .agents/skills/vercel-react-native-skills/AGENTS.md:40: - 4.1 [Never Track Scroll Position in useState](#41-never-track-scroll-position-in-usestate)",
+      "[code] .agents/skills/vercel-react-native-skills/AGENTS.md:45: - 6.2 [Use fallback state instead of initialState](#62-use-fallback-state-instead-of-initialstate)",
+      "[code] .agents/skills/vercel-react-native-skills/AGENTS.md:61: - 9.9 [Use Pressable Instead of Touchable Components](#99-use-pressable-instead-of-touchable-components)",
+      "[code] .agents/skills/vercel-react-native-skills/AGENTS.md:83: ### 1.1 Never Use && with Potentially Falsy Values"
+    ],
+    "ruleLinesTotal": 157,
+    "runWhen": [
+      ".agents/skills/vercel-react-best-practices/AGENTS.md:850: For React Server Components and client components rendered during SSR, avoid using mutable module-level variables to share request-scoped data. Server renders can run concurrently in the same process. If one render write",
+      ".agents/skills/vercel-react-best-practices/AGENTS.md:1987: **Incorrect: both effects run when either dependency changes**"
+    ]
+  },
+  "timings": {
+    "typecheck": 0
+  }
+}

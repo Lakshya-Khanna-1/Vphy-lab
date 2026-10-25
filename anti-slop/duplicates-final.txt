@@ -1,0 +1,2 @@
+[32mJSON report saved to anti-slop/duplicates-final\jscpd-report.json[39m
+[90mtime: 36.010ms[39m

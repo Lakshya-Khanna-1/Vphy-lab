@@ -1,0 +1,9 @@
+.agents
+.codex
+.git
+.next
+.local
+node_modules-original-link
+anti-slop
+*.log
+*.tsbuildinfo

@@ -1,0 +1,321 @@
+.v2-credits {
+  padding-top: 60px;
+  scroll-margin-top: 24px;
+}
+#home-title {
+  font-size: clamp(44px, 5.3vw, 72px);
+  line-height: 1.04;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+.v2-leadership {
+  padding-block: 28px 36px;
+  border-top: 1px solid var(--line);
+}
+.v2-leadership > h3 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 32px;
+  color: var(--muted);
+}
+.v2-leadership-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 28px;
+}
+.v2-leader h4 {
+  font-size: 22px;
+  line-height: 1.2;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-bottom: 12px;
+}
+.v2-leader p {
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.6;
+}
+@media (min-width: 701px) and (max-width: 1100px) {
+  .v2-leadership-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .v2-leadership { padding-block: 28px; }
+  .v2-leadership-grid { grid-template-columns: 1fr; gap: 24px; }
+  .v2-leader + .v2-leader { border-top: 1px solid var(--line); padding-top: 24px; }
+}
+.v2-batch {
+  color: var(--muted);
+  font-size: 12px;
+}
+.v2-mentor {
+  display: grid;
+  grid-template-columns: 44px 1fr auto;
+  align-items: start;
+  gap: 24px;
+  padding-block: 28px;
+  border-block: 1px solid var(--line);
+}
+.v2-mentor > svg {
+  color: var(--accent);
+}
+.v2-mentor span {
+  color: var(--muted);
+  font-size: 12px;
+}
+.v2-mentor h3 {
+  font-size: 32px;
+  font-weight: 500;
+  margin-block: 0 18px;
+  letter-spacing: -0.02em;
+}
+.v2-mentor h4 {
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+.v2-mentor p { margin-top: 12px; }
+.v2-mentor p {
+  color: var(--muted);
+  font-size: 14px;
+  max-width: 65ch;
+  line-height: 1.8;
+}
+.v2-mentor-note {
+  max-width: 24ch;
+}
+.v2-team-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.v2-person {
+  padding: 28px 24px;
+  border-right: 1px solid var(--line);
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.v2-person:first-child {
+  padding-left: 0;
+}
+.v2-person:last-child {
+  border-right: 0;
+  padding-right: 0;
+}
+.v2-initials {
+  font-size: 12px;
+  color: var(--muted);
+  margin-bottom: 26px;
+}
+.v2-person h3 {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: 500;
+  min-height: 68px;
+  letter-spacing: -0.025em;
+  margin-bottom: 12px;
+}
+.v2-person strong {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent);
+}
+.v2-person > p {
+  font-size: 12px;
+  color: var(--muted);
+  line-height: 1.8;
+  min-height: 52px;
+  margin-top: 8px;
+}
+.v2-contributions {
+  margin-top: 22px;
+  border-top: 1px solid var(--line);
+  padding-top: 16px;
+}
+.v2-contributions > span {
+  font-size: 12px;
+  color: var(--muted);
+}
+.v2-contributions a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  font-size: 12px;
+  margin-top: 12px;
+}
+.v2-contributions a:hover {
+  color: var(--accent);
+}
+.v2-person small {
+  color: var(--muted);
+  font-size: 12px;
+  margin-top: auto;
+  padding-top: 32px;
+}
+.capacitor-lesson {
+  background: var(--panel);
+  padding: 28px;
+  border-block: 1px solid var(--line);
+}
+.capacitor-heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 24px;
+}
+.capacitor-heading h2 {
+  font-size: 28px;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+.capacitor-heading p {
+  font-size: 14px;
+  color: var(--muted);
+  margin-top: 10px;
+}
+.capacitor-heading > span {
+  font-size: 12px;
+  color: var(--positive);
+  white-space: nowrap;
+}
+.capacitor-scene {
+  width: 100%;
+  height: auto;
+  margin-block: 24px;
+}
+.capacitor-readings {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  border-block: 1px solid var(--line);
+  padding-block: 20px;
+}
+.capacitor-readings span {
+  display: block;
+  color: var(--muted);
+  font-size: 12px;
+}
+.capacitor-readings strong {
+  font: 25px var(--font-measurement);
+}
+.capacitor-readings small {
+  color: var(--muted);
+  font-size: 12px;
+}
+.capacitor-explanation {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-top: 22px;
+  max-width: 75ch;
+}
+.capacitor-guide {
+  margin-top: 28px;
+}
+.capacitor-guide h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.capacitor-guide ol {
+  list-style: decimal;
+  padding-left: 20px;
+  font-size: 14px;
+  color: var(--muted);
+  line-height: 1.8;
+  margin-top: 12px;
+}
+.model-note {
+  font-size: 12px;
+  line-height: 1.8;
+  color: var(--muted);
+  margin-top: 20px;
+}
+.capacitor-question {
+  margin-top: 28px;
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+}
+.capacitor-question label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.capacitor-question select {
+  padding: 10px;
+  border: 1px solid var(--line);
+  max-width: 100%;
+  font-size: 14px;
+}
+.capacitor-question button {
+  padding: 10px 16px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  margin: 10px;
+  font-size: 14px;
+}
+.capacitor-question p {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-top: 15px;
+}
+.capacitor-current {
+  animation: current-flow 1s linear infinite;
+}
+.capacitor-current.reverse {
+  animation-direction: reverse;
+}
+@keyframes current-flow {
+  to {
+    stroke-dashoffset: -36;
+  }
+}
+@media (max-width: 1100px) {
+  .v2-team-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .v2-person:nth-child(2) {
+    border-right: 0;
+  }
+  .v2-person:nth-child(3) {
+    padding-left: 0;
+  }
+  .v2-person:nth-child(n + 3) {
+    border-top: 1px solid var(--line);
+  }
+  .v2-mentor-note {
+    display: none;
+  }
+  .capacitor-readings {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (max-width: 600px) {
+  .v2-team-grid {
+    grid-template-columns: 1fr;
+  }
+  .v2-person {
+    padding: 24px 0;
+    border-right: 0;
+    border-top: 1px solid var(--line);
+  }
+  .v2-person h3,
+  .v2-person > p {
+    min-height: 0;
+  }
+  .v2-mentor {
+    grid-template-columns: 1fr;
+  }
+  .v2-mentor > svg {
+    display: none;
+  }
+  .capacitor-lesson {
+    padding: 18px;
+  }
+  .capacitor-heading {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .capacitor-question button {
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "antipattern": "gray-on-color",
+    "name": "Gray text on colored background",
+    "description": "Gray text looks washed out on colored backgrounds. Use a darker shade of the background color instead, or white/near-white for contrast.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumCalculations.tsx",
+    "line": 163,
+    "snippet": "text-slate-500 on bg-emerald-600"
+  },
+  {
+    "antipattern": "gray-on-color",
+    "name": "Gray text on colored background",
+    "description": "Gray text looks washed out on colored backgrounds. Use a darker shade of the background color instead, or white/near-white for contrast.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\components\\experiments\\oscillation\\bar-pendulum\\BarPendulumObservationTable.tsx",
+    "line": 272,
+    "snippet": "text-slate-500 on bg-blue-600"
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\lib\\physics\\spectrometer.ts",
+    "line": 64,
+    "snippet": "Undocumented color #ff4444 is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#ff4444",
+    "importedBy": [
+      "reading-schemas.ts"
+    ]
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\lib\\physics\\spectrometer.ts",
+    "line": 72,
+    "snippet": "Undocumented color #52d3dc is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#52d3dc",
+    "importedBy": [
+      "reading-schemas.ts"
+    ]
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\lib\\physics\\spectrometer.ts",
+    "line": 80,
+    "snippet": "Undocumented color #4444ff is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#4444ff",
+    "importedBy": [
+      "reading-schemas.ts"
+    ]
+  },
+  {
+    "antipattern": "design-system-color",
+    "name": "Color outside DESIGN.md",
+    "description": "A literal color is outside the DESIGN.md palette and sidecar tonal ramps. This may be legitimate, but it should be an intentional design-system addition rather than drift.",
+    "severity": "advisory",
+    "category": "quality",
+    "file": "C:\\Users\\admin\\Desktop\\vphylab v2\\src\\lib\\physics\\spectrometer.ts",
+    "line": 88,
+    "snippet": "Undocumented color #8844ff is outside DESIGN.md colors",
+    "advisory": true,
+    "ignoreValue": "#8844ff",
+    "importedBy": [
+      "reading-schemas.ts"
+    ]
+  }
+]

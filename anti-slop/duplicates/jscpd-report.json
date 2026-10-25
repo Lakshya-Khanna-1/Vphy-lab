@@ -1,0 +1,349 @@
+{
+  "duplicates": [
+    {
+      "firstFile": {
+        "end": 42,
+        "endLoc": {
+          "column": 6,
+          "line": 42,
+          "position": 1158
+        },
+        "name": "app\\data-log\\page.tsx",
+        "start": 29,
+        "startLoc": {
+          "column": 20,
+          "line": 29,
+          "position": 896
+        }
+      },
+      "format": "tsx",
+      "fragment": "    getRecentLogs(50)\n      .then((data) => {\n        if (active) setLogs(data);\n      })\n      .catch(() => {\n        if (active) setError(true);\n      })\n      .finally(() => {\n        if (active) setLoading(false);\n      });\n    return () => {\n      active = false;\n    };\n  }, [revision]);",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 14,
+      "secondFile": {
+        "end": 41,
+        "endLoc": {
+          "column": 6,
+          "line": 41,
+          "position": 1321
+        },
+        "name": "app\\page.tsx",
+        "start": 28,
+        "startLoc": {
+          "column": 19,
+          "line": 28,
+          "position": 1059
+        }
+      },
+      "tokens": 71
+    },
+    {
+      "firstFile": {
+        "end": 43,
+        "endLoc": {
+          "column": 9,
+          "line": 43,
+          "position": 1198
+        },
+        "name": "app\\optics\\fiber-aperture\\page.tsx",
+        "start": 30,
+        "startLoc": {
+          "column": 25,
+          "line": 30,
+          "position": 909
+        }
+      },
+      "format": "tsx",
+      "fragment": "  const GRID_SIZE_MM = 40;\n\n  useEffect(() => {\n    const canvas = canvasRef.current;\n    if (!canvas) return;\n    const ctx = canvas.getContext(\"2d\");\n    if (!ctx) return;\n\n    const width = canvas.width;\n    const height = canvas.height;\n    const centerX = width / 2;\n    const centerY = height / 2;\n\n    const pixelsPerMm = width / GRID_SIZE_MM;",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 14,
+      "secondFile": {
+        "end": 43,
+        "endLoc": {
+          "column": 9,
+          "line": 43,
+          "position": 1132
+        },
+        "name": "features\\circuits\\components\\Voltmeter.tsx",
+        "start": 30,
+        "startLoc": {
+          "column": 15,
+          "line": 30,
+          "position": 843
+        }
+      },
+      "tokens": 67
+    },
+    {
+      "firstFile": {
+        "end": 379,
+        "endLoc": {
+          "column": 54,
+          "line": 379,
+          "position": 13357
+        },
+        "name": "app\\oscillation\\bar-pendulum\\page.tsx",
+        "start": 370,
+        "startLoc": {
+          "column": 35,
+          "line": 370,
+          "position": 12955
+        }
+      },
+      "format": "tsx",
+      "fragment": "                        offset: -10,\n                        style: {\n                          fill: \"#64748b\",\n                          fontSize: 11,\n                          fontWeight: 600,\n                        },\n                      }}\n                      tick={{ fontSize: 12, fill: \"#64748b\", fontWeight: 600 }}\n                      axisLine={{ stroke: \"#334155\" }}\n                      tickLine={{ stroke: \"#334155\" }}",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 10,
+      "secondFile": {
+        "end": 400,
+        "endLoc": {
+          "column": 54,
+          "line": 400,
+          "position": 14189
+        },
+        "name": "app\\oscillation\\bar-pendulum\\page.tsx",
+        "start": 391,
+        "startLoc": {
+          "column": 33,
+          "line": 391,
+          "position": 13787
+        }
+      },
+      "tokens": 55
+    },
+    {
+      "firstFile": {
+        "end": 80,
+        "endLoc": {
+          "column": 21,
+          "line": 80,
+          "position": 2235
+        },
+        "name": "components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+        "start": 70,
+        "startLoc": {
+          "column": 80,
+          "line": 70,
+          "position": 1863
+        }
+      },
+      "format": "tsx",
+      "fragment": "      const savedId = await saveExperimentData(\"newtons-rings\", \"Newton's Rings\", dataToSave);\n      alert(savedId.startsWith(\"vpl_backup_\") ? \"Saved on this device. Open Observations to export a backup.\" : \"Readings saved to cloud.\");\n    } catch (err) {\n      console.error(err);\n      alert(\"Readings could not be saved. Export a CSV copy before leaving this experiment.\");\n    } finally {\n      setIsSaving(false);\n    }\n  };\n\n  const handleLog = (n: number, side: \"left\" | \"right\") => {",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 11,
+      "secondFile": {
+        "end": 95,
+        "endLoc": {
+          "column": 21,
+          "line": 95,
+          "position": 2490
+        },
+        "name": "components\\experiments\\optics\\spectrometer\\ObservationTable.tsx",
+        "start": 85,
+        "startLoc": {
+          "column": 80,
+          "line": 85,
+          "position": 2118
+        }
+      },
+      "tokens": 51
+    },
+    {
+      "firstFile": {
+        "end": 179,
+        "endLoc": {
+          "column": 32,
+          "line": 179,
+          "position": 6398
+        },
+        "name": "components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+        "start": 169,
+        "startLoc": {
+          "column": 14,
+          "line": 169,
+          "position": 6059
+        }
+      },
+      "format": "tsx",
+      "fragment": "              </th>\n            </tr>\n          </thead>\n          <tbody>\n            {targetRings.map((n) => {\n              const r = readings[n];\n              if (!r) return null;\n              if (!r) return null;\n              return (\n                <tr key={n} className=\"hover:bg-slate-900 transition-colors\">\n                  <td className=\"px-1 py-2 border border-slate-700 font-bold text-white bg-slate-800/50\">",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 11,
+      "secondFile": {
+        "end": 239,
+        "endLoc": {
+          "column": 32,
+          "line": 239,
+          "position": 9132
+        },
+        "name": "components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+        "start": 229,
+        "startLoc": {
+          "column": 74,
+          "line": 229,
+          "position": 8793
+        }
+      },
+      "tokens": 71
+    },
+    {
+      "firstFile": {
+        "end": 299,
+        "endLoc": {
+          "column": 18,
+          "line": 299,
+          "position": 11912
+        },
+        "name": "components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+        "start": 291,
+        "startLoc": {
+          "column": 41,
+          "line": 291,
+          "position": 11669
+        }
+      },
+      "format": "tsx",
+      "fragment": "                onChange={(e) => setMRing(Number(e.target.value))}\n              >\n                {targetRings.map((n) => (\n                  <option key={n} value={n}>\n                    {n}\n                  </option>\n                ))}\n              </select>\n            </div>",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 9,
+      "secondFile": {
+        "end": 316,
+        "endLoc": {
+          "column": 18,
+          "line": 316,
+          "position": 12696
+        },
+        "name": "components\\experiments\\optics\\newtons-rings\\ObservationTable.tsx",
+        "start": 308,
+        "startLoc": {
+          "column": 41,
+          "line": 308,
+          "position": 12453
+        }
+      },
+      "tokens": 58
+    },
+    {
+      "firstFile": {
+        "end": 24,
+        "endLoc": {
+          "column": 4,
+          "line": 24,
+          "position": 563
+        },
+        "name": "components\\layout\\Sidebar.tsx",
+        "start": 1,
+        "startLoc": {
+          "column": 0,
+          "line": 1,
+          "position": 0
+        }
+      },
+      "format": "tsx",
+      "fragment": "\"use client\";\n\nimport Link from \"next/link\";\nimport { usePathname } from \"next/navigation\";\nimport {\n  Waves,\n  Lightbulb,\n  FlaskConical,\n  ChevronRight,\n  LayoutDashboard,\n  BookOpen,\n} from \"lucide-react\";\n\nconst experiments = [\n  {\n    category: \"Oscillation & Mechanics\",\n    icon: <Waves className=\"w-5 h-5\" />,\n    items: [{ name: \"Bar Pendulum\", href: \"/oscillation/bar-pendulum\" }],\n  },\n  {\n    category: \"Optics & Modern Physics\",\n    icon: <Lightbulb className=\"w-5 h-5\" />,\n    items: [{ name: \"Optical Fiber\", href: \"/optics/fiber-aperture\" }],\n  },",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 24,
+      "secondFile": {
+        "end": 24,
+        "endLoc": {
+          "column": 4,
+          "line": 24,
+          "position": 563
+        },
+        "name": "layout\\Sidebar.tsx",
+        "start": 1,
+        "startLoc": {
+          "column": 0,
+          "line": 1,
+          "position": 0
+        }
+      },
+      "tokens": 98
+    },
+    {
+      "firstFile": {
+        "end": 116,
+        "endLoc": {
+          "column": 1,
+          "line": 116,
+          "position": 4085
+        },
+        "name": "components\\layout\\Sidebar.tsx",
+        "start": 23,
+        "startLoc": {
+          "column": 68,
+          "line": 23,
+          "position": 555
+        }
+      },
+      "format": "tsx",
+      "fragment": "    items: [{ name: \"Optical Fiber\", href: \"/optics/fiber-aperture\" }],\n  },\n];\n\nexport default function Sidebar() {\n  const pathname = usePathname();\n\n  return (\n    <aside className=\"w-64 h-screen bg-slate-900 text-slate-100 flex flex-col border-r border-slate-800 sticky top-0 flex-shrink-0\">\n      <div className=\"p-6 border-b border-slate-800\">\n        <div className=\"flex items-center gap-3\">\n          <FlaskConical className=\"w-8 h-8 text-blue-400\" />\n          <h1 className=\"text-xl font-bold tracking-tight\">\n            PhysLab <span className=\"text-blue-500\">2.0</span>\n          </h1>\n        </div>\n      </div>\n\n      <nav className=\"flex-1 overflow-y-auto p-4 space-y-8 mt-4\">\n        <div>\n          <Link\n            href=\"/dashboard\"\n            className={`flex items-center gap-3 px-3 py-2 rounded-none transition-colors ${\n              pathname === \"/dashboard\"\n                ? \"bg-blue-600 transition-all   text-white\"\n                : \"hover:bg-slate-800 text-slate-400 hover:text-white\"\n            }`}\n          >\n            <LayoutDashboard className=\"w-5 h-5\" />\n            <span className=\"font-medium\">Dashboard</span>\n          </Link>\n        </div>\n\n        {experiments.map((group) => (\n          <div key={group.category} className=\"space-y-2\">\n            <div className=\"flex items-center gap-2 px-3 text-xs font-semibold uppercase tracking-wider text-slate-500\">\n              {group.icon}\n              {group.category}\n            </div>\n            <div className=\"space-y-1\">\n              {group.items.map((item) => {\n                const isActive = pathname === item.href;\n                return (\n                  <Link\n                    key={item.href}\n                    href={item.href}\n                    className={`flex items-center justify-between px-3 py-2 rounded-none transition-all group ${\n                      isActive\n                        ? \"bg-slate-800 text-white\"\n                        : \"text-slate-400 hover:bg-slate-800 hover:text-white\"\n                    }`}\n                  >\n                    <span className=\"text-sm font-medium\">{item.name}</span>\n                    <ChevronRight\n                      className={`w-4 h-4 transition-transform group-hover:translate-x-0.5 ${isActive ? \"text-blue-400\" : \"opacity-0 group-hover:opacity-100\"}`}\n                    />\n                  </Link>\n                );\n              })}\n            </div>\n          </div>\n        ))}\n\n        <div className=\"pt-4 border-t border-slate-800\">\n          <Link\n            href=\"/journal\"\n            className={`flex items-center gap-3 px-3 py-2 rounded-none transition-colors ${\n              pathname === \"/journal\"\n                ? \"bg-slate-800 text-white\"\n                : \"hover:bg-slate-800 text-slate-400 hover:text-white\"\n            }`}\n          >\n            <BookOpen className=\"w-5 h-5\" />\n            <span className=\"font-medium\">Lab Journal</span>\n          </Link>\n        </div>\n      </nav>\n\n      <div className=\"p-4 border-t border-slate-800\">\n        <div className=\"flex items-center gap-3 px-3 py-2 bg-slate-800/50 rounded-none\">\n          <div className=\"w-8 h-8 rounded-full bg-blue-500 flex items-center justify-center text-xs font-bold\">\n            JD\n          </div>\n          <div className=\"flex-1 overflow-hidden\">\n            <p className=\"text-sm font-medium truncate\">Physics Student</p>\n            <p className=\"text-xs text-slate-500 truncate\">\n              phys-std-101@university.edu\n            </p>\n          </div>\n        </div>\n      </div>\n    </aside>\n  );\n}",
+      "isNew": false,
+      "kind": "exact",
+      "lines": 94,
+      "secondFile": {
+        "end": 121,
+        "endLoc": {
+          "column": 1,
+          "line": 121,
+          "position": 4256
+        },
+        "name": "layout\\Sidebar.tsx",
+        "start": 28,
+        "startLoc": {
+          "column": 73,
+          "line": 28,
+          "position": 726
+        }
+      },
+      "tokens": 450
+    }
+  ],
+  "statistics": {
+    "detectionDate": "2026-10-21T13:00:29.008Z",
+    "formats": {
+      "tsx": {
+        "clones": 8,
+        "duplicatedLines": 187,
+        "duplicatedTokens": 921,
+        "lines": 7398,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 2.5277101919437683,
+        "percentageTokens": 2.4540367705835333,
+        "sources": 43,
+        "tokens": 37530
+      },
+      "typescript": {
+        "clones": 0,
+        "duplicatedLines": 0,
+        "duplicatedTokens": 0,
+        "lines": 1195,
+        "newClones": 0,
+        "newDuplicatedLines": 0,
+        "percentage": 0.0,
+        "percentageTokens": 0.0,
+        "sources": 14,
+        "tokens": 5604
+      }
+    },
+    "total": {
+      "clones": 8,
+      "duplicatedLines": 187,
+      "duplicatedTokens": 921,
+      "lines": 8593,
+      "newClones": 0,
+      "newDuplicatedLines": 0,
+      "percentage": 2.176189922029559,
+      "percentageTokens": 2.1352065655863126,
+      "sources": 57,
+      "tokens": 43134
+    }
+  }
+}
