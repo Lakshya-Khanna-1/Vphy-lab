@@ -1,7 +1,6 @@
+import { ExperimentWorkspace } from "@/components/experiments/shared/ExperimentWorkspace";
 import React from "react";
 import { NewtonsRingsApp } from "@/components/experiments/optics/newtons-rings/NewtonsRingsApp";
-import { TheoryCard } from "@/components/experiments/optics/newtons-rings/TheoryCard";
-import { SetupSchematic } from "@/components/experiments/optics/newtons-rings/SetupSchematic";
 
 export const metadata = {
   title: "Newton's Rings Simulator | VphyLAB",
@@ -11,7 +10,8 @@ export const metadata = {
 
 export default function NewtonsRingsExperimentPage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-50 relative overflow-x-hidden pt-16">
+    <ExperimentWorkspace experimentId="newtons-rings">
+    <div className="min-h-screen bg-slate-950 text-slate-50 relative overflow-x-hidden pt-16">
       {/* Top Navbar */}
 
       {/* Main Grid Layout */}
@@ -22,13 +22,6 @@ export default function NewtonsRingsExperimentPage() {
             <NewtonsRingsApp />
           </div>
 
-          {/* Setup Schematic Diagram */}
-          <SetupSchematic />
-
-          {/* Theory Card - moved below the lab workspace for less visual clutter */}
-          <div id="theory-container" className="relative">
-            <TheoryCard />
-          </div>
         </div>
 
         {/* Right Sidebar for Data & Observations (Spans 4 columns) */}
@@ -41,6 +34,7 @@ export default function NewtonsRingsExperimentPage() {
           </div>
         </div>
       </div>
-    </main>
+    </div>
+    </ExperimentWorkspace>
   );
 }

@@ -1,5 +1,5 @@
+import { ExperimentWorkspace } from "@/components/experiments/shared/ExperimentWorkspace";
 import SpectrometerApp from "@/components/experiments/optics/spectrometer/SpectrometerApp";
-import { TheoryCard } from "@/components/experiments/optics/spectrometer/TheoryCard";
 import { Stopwatch } from "@/components/experiments/optics/spectrometer/Stopwatch";
 
 export const metadata = {
@@ -10,7 +10,8 @@ export const metadata = {
 
 export default function SpectrometerLabPage() {
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 flex flex-col pt-16">
+    <ExperimentWorkspace experimentId="spectrometer">
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col pt-16">
       {/* Top Universal Navbar */}
 
       <div className="flex-1 max-w-[1600px] w-full mx-auto p-4 flex flex-col lg:flex-row gap-6 min-h-[calc(100vh-80px)]">
@@ -37,9 +38,9 @@ export default function SpectrometerLabPage() {
             {/* Observation Table will go here */}
           </div>
 
-          <TheoryCard />
         </div>
       </div>
-    </main>
+    </div>
+    </ExperimentWorkspace>
   );
 }

@@ -1,5 +1,7 @@
 "use client";
 
+import { ExperimentWorkspace } from "@/components/experiments/shared/ExperimentWorkspace";
+
 import React, { useState, useCallback, useMemo } from "react";
 import { useRCCircuit } from "@/features/circuits/hooks/useRCCircuit";
 import { useLabDraft } from "@/lib/use-lab-draft";
@@ -62,7 +64,12 @@ export default function RCCircuitSimulator() {
   }));
 
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 flex flex-col pt-16">
+    <ExperimentWorkspace experimentId="rc-circuit" onLeaveSimulation={() => {
+      rcCircuit.stopStopwatch();
+      if (phase === "charging") rcCircuit.toggleCharging();
+      if (phase === "discharging") rcCircuit.toggleDischarging();
+    }}>
+    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col pt-16">
       <div className="flex-1 max-w-[1600px] w-full mx-auto p-4 flex flex-col lg:flex-row gap-6 min-h-[calc(100vh-80px)]">
         {/* Left Side: Voltmeter & Switches */}
         <div className="flex-[1] flex flex-col gap-6">
@@ -160,6 +167,7 @@ export default function RCCircuitSimulator() {
           <ResultsForm theoreticalValues={rcCircuit.theoreticalValues} />
         </div>
       </div>
-    </main>
+    </div>
+    </ExperimentWorkspace>
   );
 }

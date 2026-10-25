@@ -14,7 +14,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { Activity } from "lucide-react";
-import { BarPendulumTheoryCard } from "@/components/experiments/oscillation/bar-pendulum/BarPendulumTheoryCard";
+import { ExperimentWorkspace } from "@/components/experiments/shared/ExperimentWorkspace";
 import { BarPendulumObservationTable } from "@/components/experiments/oscillation/bar-pendulum/BarPendulumObservationTable";
 import { BarPendulumCalculations } from "@/components/experiments/oscillation/bar-pendulum/BarPendulumCalculations";
 
@@ -25,18 +25,21 @@ interface Reading {
   timePeriod: number | string;
 }
 
+
 /**
  * PendulumCanvas renders the swinging bar in its own isolated animation loop.
  * It reads from `angleRef` every frame and writes directly to the DOM,
  * completely bypassing React reconciliation for silky-smooth rendering.
  */
 function PendulumCanvas({
+  active,
   angleRef,
   barHeightPx,
   holeSpacingPx,
   selectedHole,
   transformOriginY,
 }: {
+  active: boolean;
   angleRef: React.RefObject<number>;
   barHeightPx: number;
   holeSpacingPx: number;
@@ -47,6 +50,7 @@ function PendulumCanvas({
   const rafRef = useRef<number>(0);
 
   useEffect(() => {
+    if (!active) return;
     const loop = () => {
       // Only write to the DOM when the value has actually changed
       if (barRef.current && angleRef.current !== undefined) {
@@ -56,7 +60,7 @@ function PendulumCanvas({
     };
     rafRef.current = requestAnimationFrame(loop);
     return () => cancelAnimationFrame(rafRef.current);
-  }, [angleRef]);
+  }, [active, angleRef]);
 
   return (
     <div className="absolute inset-0 flex items-center justify-center bg-slate-950/40">
@@ -166,6 +170,7 @@ export default function BarPendulumExperiment() {
     }
     toggleSimulation();
   }, [isRunning, simTimeRef, selectedHole, toggleSimulation]);
+
 
   // ──── Reading / logging helpers ────
   // Logs the ACTUAL stopwatch time as practical values (just like a real lab).
@@ -337,15 +342,19 @@ export default function BarPendulumExperiment() {
   const { xDomain, yDomain, yTicks } = computeAxisDomains(graphData);
 
   return (
-    <main className="min-h-screen bg-slate-950 text-slate-100 flex flex-col pt-16">
-      {/* Top Universal Navbar */}
-
+    <ExperimentWorkspace experimentId="bar-pendulum" onLeaveSimulation={() => { if (isRunning) handleToggleSimulation(); }}>
+      {(simulationActive) => <div>
+      <header className="bp-page-heading">
+        <h2>Simulation</h2>
+        <p>Choose a suspension hole. Time 20 complete oscillations, then record your reading.</p>
+      </header>
       <div className="flex-1 max-w-[1600px] w-full mx-auto p-4 flex flex-col lg:flex-row gap-6 min-h-[calc(100vh-80px)]">
         {/* Left Side: Simulation & Plot */}
         <div className="flex-[2] flex flex-col gap-6">
           <div className="bg-slate-900 rounded-none border border-slate-800  relative min-h-[600px] overflow-hidden">
             {/* Main Full-Screen Simulator Area — isolated canvas component */}
             <PendulumCanvas
+              active={simulationActive}
               angleRef={angleRef}
               barHeightPx={barHeightPx}
               holeSpacingPx={holeSpacingPx}
@@ -606,9 +615,9 @@ export default function BarPendulumExperiment() {
 
           <BarPendulumCalculations data={readings} barLength={1.0} />
 
-          <BarPendulumTheoryCard />
         </div>
       </div>
-    </main>
+      </div>}
+    </ExperimentWorkspace>
   );
 }

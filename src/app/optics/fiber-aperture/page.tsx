@@ -1,5 +1,7 @@
 "use client";
 
+import { ExperimentWorkspace } from "@/components/experiments/shared/ExperimentWorkspace";
+
 import React, { useEffect, useRef } from "react";
 import { useNumericalAperture } from "@/features/optics/hooks/useNumericalAperture";
 import { ObservationTable } from "@/features/observation/components/ObservationTable";
@@ -154,7 +156,8 @@ export default function NumericalApertureExperiment() {
   };
 
   return (
-    <main className="lab-main">
+    <ExperimentWorkspace experimentId="fiber-aperture">
+    <div className="lab-main">
       <section className="fiber-procedure" aria-labelledby="fiber-method">
         <div>
           <h2 id="fiber-method">Measure the light cone.</h2>
@@ -168,7 +171,7 @@ export default function NumericalApertureExperiment() {
           <li>Record D. Repeat at a new distance.</li>
         </ol>
         <p>
-          Use measured D in NA = D / √(4d² + D²). Compare with the ideal NA shown beside the controls.
+          Record each diameter and screen distance using the same length unit. Open Theory for the derivation and worked example.
         </p>
       </section>
       <div className="fiber-workbench">
@@ -180,7 +183,7 @@ export default function NumericalApertureExperiment() {
               width={600}
               height={600}
               role="img"
-              aria-label={`Red light spot at screen distance ${distanceMm.toFixed(1)} mm. Caliper separation ${currentMeasuredDiameter.toFixed(2)} mm. Ideal numerical aperture ${metrics.numericalAperture.toFixed(4)}.`}
+              aria-label={`Red light spot at screen distance ${distanceMm.toFixed(1)} mm. Caliper separation ${currentMeasuredDiameter.toFixed(2)} mm. Calculated numerical aperture ${metrics.numericalAperture.toFixed(4)}.`}
               className="w-full h-full object-cover cursor-crosshair group-hover:scale-105 transition-transform duration-1000"
             />
             <div className="absolute inset-0 pointer-events-none   " />
@@ -329,6 +332,7 @@ export default function NumericalApertureExperiment() {
           />
         </section>
       </div>
-    </main>
+    </div>
+    </ExperimentWorkspace>
   );
 }
