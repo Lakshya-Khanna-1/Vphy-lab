@@ -31,7 +31,7 @@ export default function Home() {
           <div className="hero-introduction">
             <p>Change a variable. Watch what happens. Work out why.</p>
             <p>
-              Five virtual experiments for practice at home and preparation for
+              Six virtual experiments for practice at home and preparation for
               your college lab.
             </p>
           </div>

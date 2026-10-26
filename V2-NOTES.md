@@ -19,3 +19,6 @@ Ideal components, R = 10 kΩ, C = 4700 μF, supply = 5 V, time constant = 47 s. 
 Design/education references: https://phet.colorado.edu/en/simulations/capacitor-lab and https://www.falstad.com/circuit/e-cap.html. No assets or code were copied from these sites.
 
 Run `node check-rc.mjs` for charging/discharging and switch-continuity checks.
+# He–Ne laser integration
+
+Adapted Yaksh Jindal’s experiment from https://github.com/Yaksh2926/He-Ne-Laser-Experiment at revision dd2561a. Uses the existing fonts, palette, shared study navigation, observation storage, and experiment catalogue. Separate left/right captures are required; the screen scale adapts to the available orders, and graph fits are separated by grating. Theory and 20 written viva answers use the same study components as the other experiments.

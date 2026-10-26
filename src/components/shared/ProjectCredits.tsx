@@ -44,12 +44,12 @@ const team = [
   {
     name: "Yaksh Jindal",
     initials: "YJ",
-    role: "Technical Support",
+    role: "Core Simulation Developer",
     degree: "Computer Science & Engineering (AI-ML)",
     socials: [
       ["LinkedIn", "https://www.linkedin.com/in/yaksh-jindal-50753237b/"],
     ],
-    experiments: [],
+    experiments: [["He–Ne laser diffraction", "/optics/laser-diffraction"]],
   },
 ] as const;
 

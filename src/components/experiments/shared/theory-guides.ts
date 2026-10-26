@@ -1,3 +1,5 @@
+import { laserTheory } from "./laser-study";
+
 export interface TheorySection {
   title: string;
   paragraphs?: string[];
@@ -5,6 +7,7 @@ export interface TheorySection {
   steps?: string[];
 }
 export const theoryGuides = {
+  "laser-diffraction": laserTheory,
   "rc-circuit": {
     title: "Charging and discharging a capacitor",
     introduction: "Follow the transfer of charge, derive the exponential response, and measure the circuit’s time constant.",

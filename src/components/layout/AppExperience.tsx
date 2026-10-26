@@ -57,6 +57,7 @@ export function AppExperience({ children }: { children: ReactNode }) {
               "newtons-rings": "vphy-draft-rings",
               spectrometer: "vphy-draft-spectrum",
               "rc-circuit": "vphy-draft-rc",
+              "laser-diffraction": "vphy-draft-laser-diffraction",
             }[experiment.id]
           }
         />

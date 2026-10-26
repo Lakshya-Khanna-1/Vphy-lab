@@ -1,5 +1,15 @@
 export const experimentCatalog = [
   {
+    id: "laser-diffraction",
+    title: "He–Ne laser diffraction",
+    category: "Optics",
+    href: "/optics/laser-diffraction",
+    duration: "30–45 min",
+    difficulty: "Intermediate",
+    description: "Measure a red laser’s wavelength with a transmission grating.",
+    formula: "d sin θ = nλ",
+  },
+  {
     id: "bar-pendulum",
     title: "Bar pendulum",
     category: "Mechanics",

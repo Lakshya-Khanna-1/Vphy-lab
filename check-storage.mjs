@@ -18,6 +18,11 @@ async function moduleURL(sourceURL) {
 }
 
 const schemas = await import(await moduleURL(new URL('./src/lib/reading-schemas.ts', import.meta.url)));
+const laser = await import(await moduleURL(new URL('./src/lib/physics/laser-diffraction.ts', import.meta.url)));
+const laserRow = laser.createLaserReading({id:'laser-1',order:1,leftPosCm:40,rightPosCm:41,screenDistanceCm:100,grating:laser.STANDARD_GRATINGS[0]});
+assert.equal(schemas.isLaserDiffractionDraft([laserRow]),true);
+assert.equal(schemas.isLaserDiffractionDraft([{...laserRow,order:0}]),false);
+assert.equal(schemas.isLaserDiffractionDraft([{...laserRow,wavelengthNm:Infinity}]),false);
 assert.equal(schemas.isCircuitDraft([{id:'reading-1', time:2, voltage:3}]), true);
 assert.equal(schemas.isCircuitDraft([{id:'reading-1', time:NaN, voltage:3}]), false);
 assert.equal(schemas.isPendulumDraft([{hole:1, signedDistance:-.45, time20Vibs:40, timePeriod:2}]), true);

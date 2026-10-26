@@ -29,7 +29,7 @@ export function StudyDiagram({ experimentId, caption }: { experimentId: StudyId;
       {[19, 32, 43, 53, 62].map((r) => <circle key={r} cx="598" cy="160" r={r} fill="none" stroke="var(--accent)" strokeWidth="5" />)}<circle cx="598" cy="160" r="6" fill="var(--ground)" />
       <text x="529" y="73">View from above</text><text x="522" y="264">Dark contact centre</text><text x="231" y="303">Dₘ² = 4mλR</text>
     </>}
-    {experimentId === "spectrometer" && <>
+    {(experimentId === "spectrometer" || experimentId === "laser-diffraction") && <>
       <path d="M45 166H664" stroke="var(--muted)" strokeDasharray="5 5" /><path d="M68 166H302" stroke="var(--accent)" strokeWidth="3" /><rect x="301" y="60" width="15" height="210" fill="var(--raised)" stroke="var(--paper)" />
       <path d="M316 166 620 50M316 166H620M316 166 620 282" stroke="var(--accent)" strokeWidth="2.5" />
       <path d="M378 166Q378 153 374 143M378 166Q378 179 374 189" stroke="var(--positive)" fill="none" /><text x="386" y="144" fill="var(--positive)">θ</text>

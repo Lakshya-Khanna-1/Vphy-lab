@@ -1,10 +1,12 @@
 import type { Experiment } from "@/lib/experiment-catalog";
+import { laserViva } from "./laser-study";
 
 export type StudyId = Experiment["id"];
 export interface Reference { title: string; url: string }
 interface VivaSet { title: string; references: Reference[]; questions: readonly (readonly [string, string])[] }
 
 export const vivaSets: Record<StudyId, VivaSet> = {
+  "laser-diffraction": laserViva,
   "bar-pendulum": {
     title: "Bar pendulum",
     references: [

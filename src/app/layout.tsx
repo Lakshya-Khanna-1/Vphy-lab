@@ -19,7 +19,7 @@ const measurement = IBM_Plex_Mono({
 export const metadata: Metadata = {
   title: "VphyLAB | Learn Physics by Doing | GTBIT’s First Virtual Physics Lab",
   description:
-    "Practice five physics experiments at home. Control the instruments, observe the physics, and export your readings for college labs.",
+    "Practice six physics experiments at home. Control the instruments, observe the physics, and export your readings for college labs.",
 };
 
 export default function RootLayout({

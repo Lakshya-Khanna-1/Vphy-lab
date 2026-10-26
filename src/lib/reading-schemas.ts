@@ -3,6 +3,33 @@ import { HYDROGEN_LINES } from "./physics/spectrometer";
 
 const finite = (value: unknown): value is number =>
   typeof value === "number" && Number.isFinite(value);
+
+export interface LaserDiffractionRow {
+  id: string;
+  order: number;
+  screenDistanceCm: number;
+  gratingLabel: string;
+  gratingSpacingMm: number;
+  leftPosCm: number;
+  rightPosCm: number;
+  meanDisplacementCm: number;
+  sinTheta: number;
+  wavelengthNm: number;
+  errorPercent: number;
+}
+
+export function isLaserDiffractionDraft(value: unknown): value is LaserDiffractionRow[] {
+  return Array.isArray(value) && value.every((row) =>
+    isRecord(row) && typeof row.id === "string" &&
+    finite(row.order) && Number.isInteger(row.order) && row.order >= 1 && row.order <= 3 &&
+    finite(row.screenDistanceCm) && row.screenDistanceCm > 0 &&
+    typeof row.gratingLabel === "string" && finite(row.gratingSpacingMm) && row.gratingSpacingMm > 0 &&
+    finite(row.leftPosCm) && row.leftPosCm > 0 && finite(row.rightPosCm) && row.rightPosCm > 0 &&
+    finite(row.meanDisplacementCm) && row.meanDisplacementCm > 0 &&
+    finite(row.sinTheta) && row.sinTheta > 0 && row.sinTheta < 1 &&
+    finite(row.wavelengthNm) && row.wavelengthNm > 0 && finite(row.errorPercent) && row.errorPercent >= 0
+  );
+}
 const numeric = (value: unknown): value is string | number =>
   finite(value) ||
   (typeof value === "string" &&

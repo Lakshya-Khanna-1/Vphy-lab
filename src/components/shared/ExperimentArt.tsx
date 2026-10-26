@@ -12,6 +12,13 @@ export function ExperimentArt({
       fill="none"
       aria-hidden="true"
     >
+      {id === "laser-diffraction" && <>
+        <rect x="40" y="105" width="60" height="30" rx="2" fill="var(--panel)" stroke="currentColor" />
+        <text x="70" y="124" fill="var(--paper)" fontSize="10" textAnchor="middle">He–Ne</text>
+        <path d="M200 70V170M330 40V200" stroke="currentColor" strokeWidth="2" />
+        <path d="M100 120H330M200 120 330 65M200 120 330 175" stroke="var(--accent)" strokeWidth="2" />
+        {[65,120,175].map((y) => <circle key={y} cx="330" cy={y} r="4" fill="var(--accent)" />)}
+      </>}
       {id === "bar-pendulum" && (
         <>
           <path
