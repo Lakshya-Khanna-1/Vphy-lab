@@ -50,38 +50,6 @@ export function ProjectCredits() {
         </div>
         <span className="v2-batch">GTBIT · Batch 2025–2029</span>
       </div>
-      <section className="v2-leadership" aria-labelledby="leadership-title">
-        <h3 id="leadership-title">With the support of</h3>
-        <div className="v2-leadership-grid">
-          {[
-            { name: "Bibi Ranjeet Kaur", role: "Chairperson, GTBIT" },
-            { name: "S. Amarjeet Singh", role: "Co-chairman, GTBIT" },
-            { name: "Dr. Rominder Kaur", role: "Director, GTBIT" },
-            { name: "Prof. Simmi Singh", role: "HoD · Exam Cell" },
-            { name: "Dr. Seema Singh", role: "HoD · First Year Academics" },
-          ].map((leader) => (
-            <div className="v2-leader" key={leader.name}>
-              <h4>{leader.name}</h4>
-              <p>{leader.role}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-      <section className="v2-mentor" aria-labelledby="mentor-title">
-        <GraduationCap size={30} aria-hidden="true" />
-        <div>
-          <h3 id="mentor-title">Faculty mentor</h3>
-          <h4>Dr. Daljeet Kaur</h4>
-          <span>Department of Applied Sciences</span>
-          <p>
-            Academic leadership, curricular alignment, and experimental
-            validation for the virtual laboratory.
-          </p>
-        </div>
-        <span className="v2-mentor-note">
-          Guru Tegh Bahadur Institute of Technology
-        </span>
-      </section>
       <div className="v2-team-grid">
         {team.map((member) => (
           <article className="v2-person" key={member.name}>
@@ -104,6 +72,38 @@ export function ProjectCredits() {
           </article>
         ))}
       </div>
+      <section className="v2-mentor" aria-labelledby="mentor-title">
+        <GraduationCap size={30} aria-hidden="true" />
+        <div>
+          <h3 id="mentor-title">Faculty mentor</h3>
+          <h4>Dr. Daljeet Kaur</h4>
+          <span>Department of Applied Sciences</span>
+          <p>
+            Academic leadership, curricular alignment, and experimental
+            validation for the virtual laboratory.
+          </p>
+        </div>
+        <span className="v2-mentor-note">
+          Guru Tegh Bahadur Institute of Technology
+        </span>
+      </section>
+      <section className="v2-leadership" aria-labelledby="leadership-title">
+        <h3 id="leadership-title">With the support of</h3>
+        <div className="v2-leadership-grid">
+          {[
+            { name: "Bibi Ranjeet Kaur", role: "Chairperson, GTBIT" },
+            { name: "S. Amarjit Singh", role: "Co-chairman, GTBIT" },
+            { name: "Dr. Rominder Kaur", role: "Director, GTBIT" },
+            { name: "Prof. Simmi Singh", role: "HoD · Exam Cell" },
+            { name: "Dr. Seema Singh", role: "HoD · First Year Academics" },
+          ].map((leader) => (
+            <div className="v2-leader" key={leader.name}>
+              <h4>{leader.name}</h4>
+              <p>{leader.role}</p>
+            </div>
+          ))}
+        </div>
+      </section>
     </section>
   );
 }
